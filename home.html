@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus AI Academy | AI Literacy for Everyone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #020617; color: #f1f5f9; }
+        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+        .text-gradient { background: linear-gradient(to right, #3b82f6, #9333ea); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .bento-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .bento-card:hover { transform: translateY(-10px); border-color: #3b82f6; box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1); }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- 1. NAVIGATION -->
+    <nav class="fixed w-full z-50 top-0 glass border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="text-2xl font-black tracking-tighter">Pristine AI<span class="text-blue-500 italic"></span></div>
+            <div class="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest text-slate-400">
+                <a href="#how" class="hover:text-white transition">How it works</a>
+                <a href="#who" class="hover:text-white transition">Who it's for</a>
+                <a href="#benefits" class="hover:text-white transition">Benefits</a>
+            </div>
+            <a href="applyy.html" class="bg-blue-600 hover:bg-blue-500 px-6 py-3 rounded-full text-sm font-bold transition shadow-lg shadow-blue-500/20">Apply Now</a>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION -->
+    <section class="pt-40 pb-20 px-6 relative">
+        <div class="absolute top-20 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-600/20 blur-[120px] rounded-full -z-10"></div>
+        <div class="max-w-4xl mx-auto text-center animate__animated animate__fadeInUp">
+            <span class="px-4 py-2 rounded-full glass border-white/10 text-[10px] font-bold uppercase tracking-[0.3em] text-blue-400 mb-6 inline-block">First in Sierra Leone</span>
+            <h1 class="text-5xl md:text-7xl font-black mb-8 leading-tight">Master the Future. <br><span class="text-gradient">No Coding Required.</span></h1>
+            <p class="text-lg text-slate-400 mb-10 leading-relaxed max-w-2xl mx-auto">We teach students, workers, and business owners in Sierra Leone how to use AI to finish work faster, earn more, and stay ahead of the world.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="applyy.html" class="px-10 py-5 bg-white text-black rounded-2xl font-black text-lg hover:bg-blue-500 hover:text-white transition-all">Start Your Journey</a>
+                <a href="#who" class="px-10 py-5 glass rounded-2xl font-black text-lg hover:bg-white/5 transition-all">See Who Can Join</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. THE PROBLEM (Why You Need This) -->
+    <section id="how" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="glass p-10 rounded-[40px] border-white/5">
+                <h3 class="text-3xl font-black mb-6 italic text-blue-400">The Hard Truth...</h3>
+                <p class="text-slate-400 leading-relaxed mb-6">The world is changing fast. Working "hard" is no longer enough. If you aren't using AI, you are doing 10x more work for 10x less results.</p>
+                <div class="space-y-4">
+                    <div class="flex gap-4"><i class="fa-solid fa-circle-xmark text-red-500 mt-1"></i> <span>Wasting hours on manual typing and searching.</span></div>
+                    <div class="flex gap-4"><i class="fa-solid fa-circle-xmark text-red-500 mt-1"></i> <span>Feeling overwhelmed by too much information.</span></div>
+                    <div class="flex gap-4"><i class="fa-solid fa-circle-xmark text-red-500 mt-1"></i> <span>Struggling to compete with global workers.</span></div>
+                </div>
+            </div>
+            <div class="p-10">
+                <h2 class="text-4xl font-black mb-6">We make AI <span class="text-blue-500">Simple.</span></h2>
+                <p class="text-slate-400 text-lg mb-8">We take the "scary" out of technology. No complicated math. No coding. Just simple instructions to make your life easier.</p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-6 glass rounded-3xl text-center">
+                        <div class="text-3xl font-black text-white">100%</div>
+                        <div class="text-[10px] uppercase font-bold text-slate-500">Beginner Friendly</div>
+                    </div>
+                    <div class="p-6 glass rounded-3xl text-center">
+                        <div class="text-3xl font-black text-white">SL</div>
+                        <div class="text-[10px] uppercase font-bold text-slate-500">Localized Examples</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. WHO IT'S FOR (Bento Grid Layout) -->
+    <section id="who" class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-black mb-16 text-center">Who is the Training For?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+                <!-- Students -->
+                <div class="md:col-span-8 glass p-10 rounded-[40px] bento-card relative overflow-hidden group">
+                    <div class="relative z-10">
+                        <i class="fa-solid fa-graduation-cap text-4xl text-blue-500 mb-6"></i>
+                        <h3 class="text-2xl font-black mb-4">University Students</h3>
+                        <p class="text-slate-400 max-w-md">Master how to summarize 100-page books in seconds, get a 24/7 personal tutor, and write perfect scholarship letters.</p>
+                    </div>
+                    <i class="fa-solid fa-book-open absolute -right-10 -bottom-10 text-[150px] text-white/5 group-hover:text-blue-500/10 transition-all"></i>
+                </div>
+                <!-- Creatives -->
+                <div class="md:col-span-4 glass p-10 rounded-[40px] bento-card bg-gradient-to-br from-purple-900/20 to-transparent">
+                    <i class="fa-solid fa-palette text-4xl text-purple-500 mb-6"></i>
+                    <h3 class="text-2xl font-black mb-4">Content Creators</h3>
+                    <p class="text-slate-400"> Use AI tools to Generate world-class images, AI videos, and standard audios,and reach more audience</p>
+                </div>
+                <!-- Employees -->
+                <div class="md:col-span-5 glass p-10 rounded-[40px] bento-card">
+                    <i class="fa-solid fa-briefcase text-4xl text-green-500 mb-6"></i>
+                    <h3 class="text-2xl font-black mb-4">Employees</h3>
+                    <p class="text-slate-400">Finish an 8-hour workday in 45 minutes. Become the office genius your boss can't live without.</p>
+                </div>
+                <!-- Business Owners -->
+                <div class="md:col-span-7 glass p-10 rounded-[40px] bento-card border-blue-500/20">
+                    <i class="fa-solid fa-shop text-4xl text-orange-500 mb-6"></i>
+                    <h3 class="text-2xl font-black mb-4">Small Business Owners</h3>
+                    <p class="text-slate-400">Run a big company with just your phone. Let AI handle your customer chats, marketing, and sales while you sleep.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- NEW SECTION: WHAT YOU WILL LEARN -->
+<section id="skills" class="py-24 px-6 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-black mb-4">What You'll <span class="text-blue-500 italic"></span> Master</h2>
+            <p class="text-slate-400">We don't teach theory. We teach you how to get things done.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Skill 1 -->
+            <div class="glass p-8 rounded-[40px] border-white/5 hover:border-blue-500/30 transition-all">
+                <div class="text-3xl mb-4">🧠</div>
+                <h4 class="text-xl font-bold mb-2">Build Your Second Brain</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Learn how to make AI memorize your notes, books, and ideas so you never forget anything again.</p>
+            </div>
+            <!-- Skill 2 -->
+            <div class="glass p-8 rounded-[40px] border-white/5 hover:border-blue-500/30 transition-all">
+                <div class="text-3xl mb-4">✍️</div>
+                <h4 class="text-xl font-bold mb-2">Perfect Writing in Seconds</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Command AI to write emails, project reports, and letters that sound like a top professional wrote them.</p>
+            </div>
+            <!-- Skill 3 -->
+            <div class="glass p-8 rounded-[40px] border-white/5 hover:border-blue-500/30 transition-all">
+                <div class="text-3xl mb-4">🎨</div>
+                <h4 class="text-xl font-bold mb-2">Magic Design & Images</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Create beautiful posters, logos, and photos for your brand just by talking to your computer.</p>
+            </div>
+            <!-- Skill 4 -->
+            <div class="glass p-8 rounded-[40px] border-white/5 hover:border-blue-500/30 transition-all">
+                <div class="text-3xl mb-4">📈</div>
+                <h4 class="text-xl font-bold mb-2">Instant Data Solving</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Give AI your messy records or spreadsheets and watch it find mistakes and give you answers in seconds.</p>
+            </div>
+            <!-- Skill 5 -->
+            <div class="glass p-8 rounded-[40px] border-white/5 hover:border-blue-500/30 transition-all">
+                <div class="text-3xl mb-4">🤖</div>
+                <h4 class="text-xl font-bold mb-2">Automated Selling</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Set up an assistant that talks to your customers and sells your products on WhatsApp while you sleep.</p>
+            </div>
+            <!-- Skill 6 -->
+            <div class="glass p-8 rounded-[40px] border-white/5 hover:border-blue-500/30 transition-all">
+                <div class="text-3xl mb-4">🌍</div>
+                <h4 class="text-xl font-bold mb-2">Global Job Hunting</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Use AI to find and apply for high-paying remote jobs and scholarships that were once hidden from you.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- 5. THE PROMPT MASTERCLASS (Visual Sample) -->
+    <!-- 5. THE CURRICULUM (Skills) -->
+<section id="skills" class="py-24 px-6 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tighter">Class <span class="text-blue-500">Modules</span></h2>
+            <p class="text-slate-400">Step-by-step training designed for absolute beginners.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Module 1 -->
+            <div class="p-8 rounded-[40px] border border-white/5 bg-slate-900/50 hover:bg-blue-600/5 transition-colors group">
+                <span class="text-blue-500 font-bold text-xs uppercase tracking-widest">Module 01</span>
+                <h4 class="text-xl font-bold mt-2 mb-3 group-hover:text-blue-400 transition-colors">Prompt Engineering</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Learn the "Secret Language" to make AI give you perfect answers every time.</p>
+            </div>
+            <!-- Module 2 -->
+            <div class="p-8 rounded-[40px] border border-white/5 bg-slate-900/50 hover:bg-purple-600/5 transition-colors group">
+                <span class="text-purple-500 font-bold text-xs uppercase tracking-widest">Module 02</span>
+                <h4 class="text-xl font-bold mt-2 mb-3 group-hover:text-purple-400 transition-colors">AI Content Creation</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Create professional posters, radio scripts, and social media videos in minutes.</p>
+            </div>
+            <!-- Module 3 -->
+            <div class="p-8 rounded-[40px] border border-white/5 bg-slate-900/50 hover:bg-green-600/5 transition-colors group">
+                <span class="text-green-500 font-bold text-xs uppercase tracking-widest">Module 03</span>
+                <h4 class="text-xl font-bold mt-2 mb-3 group-hover:text-green-400 transition-colors">The Digital Secretary</h4>
+                <p class="text-sm text-slate-400 leading-relaxed">Automate your emails, meeting notes, and report writing tasks.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+  <!-- 4. COHORT SCHEDULE SECTION -->
+    <section id="cohorts" class="py-24 px-6 bg-slate-900/30">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black mb-4 uppercase tracking-tighter">2026 <span class="text-blue-500">Cohorts</span></h2>
+                <p class="text-slate-400">Secure your spot in our upcoming training cycles.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- May Cohort (Active) -->
+                <div class="glass p-8 rounded-[40px] border-blue-500/50 relative">
+                    <span class="absolute -top-3 right-6 bg-blue-600 text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest">Applying Now</span>
+                    <h3 class="text-xl font-black mb-2">May Cohort</h3>
+                    <p class="text-sm text-slate-400 mb-6">Deadline: May 10th<br>Starts: May 15th</p>
+                    <a href="apply.html" class="block w-full py-3 bg-blue-600 rounded-2xl text-center font-bold text-sm hover:bg-blue-500 transition shadow-lg shadow-blue-600/20">Apply Now</a>
+                </div>
+                <!-- June Cohort -->
+                <div class="glass p-8 rounded-[40px] border-white/5 opacity-80">
+                    <h3 class="text-xl font-black mb-2 text-slate-300">June Cohort</h3>
+                    <p class="text-sm text-slate-500 mb-6">Deadline: June 10th<br>Starts: June 15th</p>
+                    <button class="w-full py-3 glass rounded-2xl text-center font-bold text-sm hover:bg-white/10 transition">Join Waitlist</button>
+                </div>
+                <!-- July Cohort -->
+                <div class="glass p-8 rounded-[40px] border-white/5 opacity-80">
+                    <h3 class="text-xl font-black mb-2 text-slate-300">July Cohort</h3>
+                    <p class="text-sm text-slate-500 mb-6">Deadline: July 10th<br>Starts: July 15th</p>
+                    <button class="w-full py-3 glass rounded-2xl text-center font-bold text-sm hover:bg-white/10 transition">Join Waitlist</button>
+                </div>
+                <!-- August Cohort -->
+                <div class="glass p-8 rounded-[40px] border-white/5 opacity-80">
+                    <h3 class="text-xl font-black mb-2 text-slate-300">August Cohort</h3>
+                    <p class="text-sm text-slate-500 mb-6">Deadline: Aug 10th<br>Starts: Aug 15th</p>
+                    <button class="w-full py-3 glass rounded-2xl text-center font-bold text-sm hover:bg-white/10 transition">Join Waitlist</button>
+                </div>
+            </div>
+
+
+
+
+   <!-- INTERNSHIP BANNER -->
+            <div class="mt-12 glass p-8 rounded-[40px] border-green-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <h4 class="text-green-400 font-black text-lg">🏆 Top Performer Reward</h4>
+                    <p class="text-slate-400 text-sm">Best student in each cohort wins a <strong>1-month paid internship</strong> working directly with us.</p>
+                </div>
+                <div class="px-6 py-3 bg-green-500/10 text-green-500 font-black rounded-full text-xs uppercase tracking-widest border border-green-500/20">
+                    Get Paid to Learn
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 7. FINAL CALL TO ACTION -->
+    <section class="py-20 px-6">
+        <div class="max-w-4xl mx-auto glass p-16 rounded-[60px] text-center relative overflow-hidden">
+            <div class="absolute -top-24 -left-24 w-64 h-64 bg-blue-600/20 blur-[80px] rounded-full"></div>
+            <h2 class="text-4xl md:text-5xl font-black mb-8">Nle500 Only!</span></h2>
+
+            <h2 class="text-4xl md:text-5xl font-black mb-8">Don't be left behind</span></h2>
+            <a href="applyy.html" class="inline-block px-12 py-6 bg-white text-black rounded-3xl font-black text-xl hover:scale-105 transition-transform shadow-2xl">Apply for the MAY Cohort</a>
+            <p class="mt-8 text-xs font-bold text-slate-500 uppercase tracking-widest">Limited Seats Available in Makeni</p>
+        </div>
+    </section>
+
+
+<!-- NEW SECTION: FAQ -->
+<section class="py-20 px-6 border-t border-white/5">
+    <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-black mb-12 text-center text-gradient">Common Questions</h2>
+        <div class="space-y-6">
+            <div class="glass p-6 rounded-3xl">
+                <h4 class="font-bold mb-2">Do I need to know how to code?</h4>
+                <p class="text-sm text-slate-400">Absolutely not. If you can use WhatsApp or Facebook, you can master these AI tools.</p>
+            </div>
+            <div class="glass p-6 rounded-3xl">
+                <h4 class="font-bold mb-2">Do I need a laptop?</h4>
+                <p class="text-sm text-slate-400">A laptop is recommended, but we also teach you how to use powerful AI tools directly on your smartphone.</p>
+            </div>
+            <div class="glass p-6 rounded-3xl">
+                <h4 class="font-bold mb-2">Will I get a certificate?</h4>
+                <p class="text-sm text-slate-400">Yes! Every graduate receives a Nexus AI Literacy Certificate to add to their CV.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- 8. FOOTER -->
+    <footer class="py-12 border-t border-white/5 text-center">
+        <div class="text-xl font-black mb-4">Pristine<span class="text-blue-500">AI</span></div>
+        <p class="text-slate-500 text-sm">© 2026 Pristine AI Academy. Built for the future of Sierra Leone.</p>
+    </footer>
+
+</body>
+</html>
